@@ -116,7 +116,7 @@ public class FastdfsClient {
     //获取tracker的信息
 
 
-    // http://192.168.211.132:8080
+    // http://192.168.***.***:8080
     public static String getTrackerUrl() throws Exception {
         //创建TrackerClient客户端对象
         TrackerClient trackerClient = new TrackerClient();
